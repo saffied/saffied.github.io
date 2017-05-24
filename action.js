@@ -23,7 +23,7 @@ $(document).ready(function() {
 		var html = [];
 		
 		//Add styling for table
-		html.push('<table width="100%" border="0" cellspacing="0" cellpadding="3"><tbody>);
+		html.push('<table width="100%" border="0" cellspacing="0" cellpadding="3"><tbody>');
 		
 		//Loop through all of the results and add each result to the HTML table
 		for(var i = 0; i < items.length; i++) {
