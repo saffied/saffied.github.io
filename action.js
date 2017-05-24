@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var id = "dereks17";
 	
 	//Construct the eBay API call
-	var url = "http://svcs.ebay.com/services/search/FindingService/v1";
+	var url = "https://svcs.ebay.com/services/search/FindingService/v1";
     url += "?OPERATION-NAME=findItemsByKeywords";
     url += "&SERVICE-VERSION=1.0.0";
     url += "&SECURITY-APPNAME=" + id;
