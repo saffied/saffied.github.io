@@ -29,3 +29,11 @@
 #timeline li h3, #timeline li em {
 	display:block;
 }
+
+#timeline_header {
+	padding-left:0;
+}
+
+hr {
+	width:100%;
+}
