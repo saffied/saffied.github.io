@@ -5,11 +5,14 @@
 .jumbotron {
 	height: 100vh;
 	background-color: #d1e8fc;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .jumbotron h1 {
 	font-weight: bold;
-	margin-top: 12%;
 	color: #fefff7; 
 	font-family: "Lucida Console";
 	font-size: 7em;
