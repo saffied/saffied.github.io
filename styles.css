@@ -56,7 +56,7 @@ hr {
   border-top: 20px solid #a6a7a8;
   display: inline-block;
   position: absolute;
-  left: 40px;
+  left: 3em;
 }
 
 .timeline_icon {
@@ -64,7 +64,7 @@ hr {
 	width: 75px;
 	position: absolute;
 	bottom: -85px;
-	left: 40px;
+	left: 3em;
 }
 
 .timeline_ruler {
@@ -90,7 +90,6 @@ hr {
 footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-top: 100px;
 	background-color: #aeafaf;
 	text-align: center;
 }
@@ -112,7 +111,7 @@ footer h4 {
 	letter-spacing: .15em;
 	animation:
 		typing 3.5s steps(40, end),
-		blink-caret .75s step-end infinite;
+		blink-caret .75s steps(1, end) infinite alternate;
 }
 
 /* Typing animation */
@@ -131,4 +130,73 @@ footer h4 {
 	} 50% { 
 		border-color: #fefff7;
 	}
+}
+
+#contact_section {
+	margin: 0;
+	margin-top: 4em;
+	background-color: #f9f9f9;
+	padding: 0;
+	width: 100%;
+}
+
+#contact_section h2 {
+	text-align: center;
+	font-weight: bold;
+	font-family: Georgia;
+}
+
+#contact_box {
+	text-align: center;
+	background-color: white;
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
+	height: 20em;
+	width: 25em;
+	margin-bottom: 5em;
+	margin-left: 4%;
+	margin-right: 3.2%;
+	margin-top: 5em;
+	box-shadow: 1px 1px 6px #757677;
+	float: left;
+}
+
+#contact_box img {
+	margin-top: 3.3em;
+	margin-bottom: 1.2em;
+	height: 3em;
+	width: 3em;
+}
+
+#contact_box h4 {
+	color: #6d6d6d;
+}
+
+#contact_box h4:after {
+	bottom: -.3em;
+	content: "";
+	display: block;
+	height: .1em;
+	position: relative;
+	width: 2em;
+	background-color: #6d6d6d;
+	margin: 0 auto;
+}
+
+#contact_box p {
+	margin: 1.5em;
+	color: #6d6d6d;
+	font-size: 1.2em;
+}
+
+input[type=submit] {
+	color: #6d6d6d;
+	border-radius: .15em;
+	width: 3.3em;
+	height: 2.3em;
+	border: 0;
+}
+
+input[type=submit]:hover {
+	background-color: #d1e8fc;
 }
