@@ -1,22 +1,24 @@
 .navbar {
-  margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .jumbotron {
-  margin-bottom: 20px;
-  background-color: #d1e8fc;
+	height: 100vh;
+	background-color: #d1e8fc;
 }
 
 .jumbotron h1 {
+	font-weight: bold;
+	margin-top: 12%;
 	color: #fefff7; 
 	font-family: "Lucida Console";
 	font-size: 7em;
 }
 
 #timeline {
-  list-style: none;
-  white-space: nowrap;
-  padding-left: 0;
+	list-style: none;
+	white-space: nowrap;
+	padding-left: 0;
 }
 
 #timeline li {
@@ -41,7 +43,8 @@
 }
 
 #timeline_header {
-  padding-left: 0;
+	margin-top: 9%;
+	padding-left: 0;
 }
 
 hr {
@@ -110,7 +113,7 @@ footer h4 {
 	margin: 0 auto;
 	letter-spacing: .15em;
 	animation:
-		typing 3.5s steps(40, end),
+		typing 3.5s steps(30, end),
 		blink-caret .75s steps(1, end) infinite alternate;
 }
 
@@ -134,16 +137,17 @@ footer h4 {
 
 #contact_section {
 	margin: 0;
-	margin-top: 4em;
 	background-color: #f9f9f9;
 	padding: 0;
 	width: 100%;
+	height: 100vh;
 }
 
 #contact_section h2 {
 	text-align: center;
 	font-weight: bold;
 	font-family: Georgia;
+	margin-top: 7%;
 	color: #515151;
 }
 
