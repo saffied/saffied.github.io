@@ -146,6 +146,17 @@ footer h4 {
 	font-family: Georgia;
 }
 
+#contact_section h2:after {	
+	bottom: -.3em;
+	content: "";
+	display: block;
+	height: .08em;
+	position: relative;
+	width: 4em;
+	background-color: #6d6d6d;
+	margin: 0 auto;
+}
+
 #contact_box {
 	text-align: center;
 	background-color: white;
