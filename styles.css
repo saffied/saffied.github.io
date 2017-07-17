@@ -1,5 +1,6 @@
 .navbar {
-	margin-bottom: 0px;
+	margin-bottom: 0;
+	right: 0;
 }
 
 .jumbotron {
@@ -9,6 +10,10 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.centered {
+	display: relative;
 }
 
 .jumbotron h1 {
@@ -46,7 +51,7 @@
 }
 
 #timeline_header {
-	margin-top: 9%;
+	margin-top: 6%;
 	padding-left: 0;
 }
 
@@ -106,6 +111,7 @@ footer h4 {
 
 .animated_text {
 	display: inline-block;
+	margin-bottom: 5em;
 }
 
 .animated_text h2 {
@@ -175,7 +181,7 @@ footer h4 {
 	margin-bottom: 5em;
 	margin-left: 4%;
 	margin-right: 3.2%;
-	margin-top: 5em;
+	margin-top: 3em;
 	box-shadow: 1px 1px 6px #757677;
 	float: left;
 }
@@ -302,4 +308,46 @@ input[type=submit]:hover {
 
 .text a {
 	color: white;
+}
+
+#about_header {
+	padding: 0;
+}
+
+.timeline_wrapper, .about_wrapper {
+	height: 100vh;
+}
+
+#book_pic {
+	width: 100%;
+}
+
+.navbar {
+	background: black;
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar li {
+	color: white;
+	cursor: default;
+	padding: 1em;
+}
+
+.navbar li:hover {
+	background-color: #5b81bf; 
+}
+
+.affix {
+	top: 1.5em;
+}
+
+.no_style {
+	list-style: none;
+}
+
+.vertical-center {
+	left: 50%;
+	top: 50%;
+	transform: translateY(25%);
 }
