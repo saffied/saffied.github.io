@@ -230,8 +230,10 @@ input[type=submit]:hover {
 	background-color: #f2efe0;
 }
 
-#project_section > .container {
-	height: 100vh;
+@media screen and (min-width: 800px) {
+	#project_section > .container {
+		height: 100vh;
+	}
 }
 
 #project_section h2:after {	
