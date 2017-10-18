@@ -54,6 +54,11 @@ body, html {
 	overflow: hidden;
 }
 
+.topnav a.selected {
+	background-color: #f2f2f2;
+	color: #3b4e6b;
+}
+
 .topnav a {
 	float: left;
 	display: block;
@@ -65,7 +70,8 @@ body, html {
 }
 
 .topnav a:hover {
-	color: red;
+	color: #3b4e6b;
+	background-color: #f2f2f2;
 }
 
 .topnav .icon {
