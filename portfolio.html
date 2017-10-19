@@ -1,15 +1,65 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Derek Saffie - Portfolio</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+			rel="stylesheet">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<link href="image_styles.css" rel="stylesheet" type="text/css">
+		<link rel='shortcut icon' type='image/x-icon' href='logo.ico'/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"	></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="navbar.js"></script>
 	</head>
 	
-	<body>
+	<body id="portfolio">
 		<div class="topnav" id="myTopnav">
 			<a href="index.html">Home</a>
-			<a href="#about">About</a>
-			<a href="portfolio.html" class="selected">Portfolio</a>
-			<a href="#contact">Contact</a>
+			<a href="about.html">About</a>
+			<a href="#" class="selected">Portfolio</a>
+			<a href="contact.html">Contact</a>
 			<a class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+		
+		<div class="container">
+			<h1><b>Projects</b></h1>
+			<div class="row">
+				<div class="col-md-4">
+					<img class="portfolio_img" src="BreakOut_Java.png" alt="Breakout">
+					<div class="center_text">Classic retro Atari <a href="https://github.com/saffied/breakout" target="_blank">Breakout</a> game developed in Java.</div>
+				</div>
+			</div>
+			
+			<h1><b>Websites</b></h1>
+			<div class="row">
+				<div class="col-md-4">
+					<img class="portfolio_img" src="flashcard_website.png" alt="Flashcard App">
+					<div class="center_text"><a href="cs.merrimack.edu/ciphers" target="_blank">Chemistry Flashcard Web App</a> developed functionality using PHP and JavaScript and integrated features with existing UI.</div>
+				</div>
+				
+				<div class="col-md-4">
+					<img class="portfolio_img" src="personal_website.png" alt="Derek Saffie - Official Website">
+					<div class="center_text">Personal website of <a href="dereksaffie.com" target="_blank">Derek Saffie</a></div>
+				</div>
+			</div>
+			
+			<h1><b>Publications</b></h1>
+			<div class="row">
+				<div class="col-md-4">
+					<img class="portfolio_img" src="HistoricTalesOfWindham.png" alt="Historic Tales of Windham">
+					<div class="center_text">Author of <a href="https://www.arcadiapublishing.com/Products/9781467135641" target="_blank">Historic Tales of Windham</a> a collection of stories from Windham's history from its founding to present.</div>
+				</div>
+				
+				<div class="col-md-4">
+					<img class="portfolio_img" src="RedAlertPoliticsLogo.png" alt="Red Alert Politics Articles">
+					<div class="center_text">Contributor to <a href="http://redalertpolitics.com/2017/03/03/gov-sununu-illegal-immigrants-running-drugs-sanctuary-cities/" target="_blank">Red Alert Politics</a></div>
+				</div>
+				
+				<div class="col-md-4">
+					<img class="portfolio_img" src="lone_conservative.png" alt="Lone Conservative Articles">
+					<div class="center_text">Contributor to <a href="https://www.loneconservative.com/author/dereksafie/" target="_blank">Lone Conservative<a/></div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
