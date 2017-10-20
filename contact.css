@@ -1,0 +1,22 @@
+.contact_box {
+	text-align: center;
+	background: rgba(255,255,255,.7);
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
+	box-shadow: 1px 1px 6px #757677;
+	float: left;
+	margin-left: 2em;
+	height: 20em;
+	width: 25em;
+}
+
+.contact_box img {
+	margin-top: 3.3em;
+	margin-bottom: 1.2em;
+	height: 3em;
+	width: 3em;
+}
+
+.contact_box h3 {
+	color: #6d6d6d;
+}
