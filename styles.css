@@ -7,6 +7,11 @@ body, html {
 	background-size: cover;
 }
 
+#websites {
+	background: url("brick_background.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
 #about {
 	background: url("white_wood_background.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -15,6 +20,20 @@ body, html {
 #contact {
 	background: url("white_wall_background.jpg") no-repeat center center fixed;
 	background-size: cover;
+}
+
+#contact .container {
+	position: relative;
+	display: flex;
+    align-items:center;
+    justify-content:center;
+	z-index: -1;
+}
+
+@media screen and (min-width: 600px) {
+	#contact .container {
+		height: 100vh;
+	}
 }
 
 .rounded {
