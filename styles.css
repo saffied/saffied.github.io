@@ -4,7 +4,7 @@ body, html {
 
 #portfolio {
 	background: url("brick_background.jpg") no-repeat center center fixed;
-	background-size: cover;
+	background-size: 100% 100%;
 }
 
 #websites {
