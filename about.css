@@ -1,5 +1,4 @@
 @media screen and (max-width: 700px) { 
-	
 }
 
 @media screen and (min-width: 701px) {
@@ -13,6 +12,12 @@
 		position: absolute;
 		top: 0px;
 		left: 0px;
+	}
+	.row {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
 	}
 }
 
@@ -32,7 +37,7 @@
 
 #right {
 	margin: 0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
