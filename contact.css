@@ -17,6 +17,13 @@
 	color: #6d6d6d;
 }
 
+#contact .container {
+	position: relative;
+	display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
 @media screen and (max-width: 700px) {
 	.contact_box {
 		top: 0px;
@@ -31,9 +38,18 @@
 		width: 25em;
 		margin-right: 2em;
 		float: left;
+	}	
+	
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;	
 	}
 	
-	#contact .container {
-		height: 100vh;
+	#myTopnav {
+		position: absolute;
+		top: 0px;
+		left: 0px;
 	}
 }
