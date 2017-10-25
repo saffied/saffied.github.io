@@ -1,9 +1,12 @@
 @media screen and (max-width: 700px) { 
 	#left h4 {
-		margin: 1em;
+		margin: 1em 0 1em 0;
 	}
 	.rounded {
 		/*margin-bottom: 2em;*/
+	}
+	.row {
+		margin: 0;
 	}
 }
 
