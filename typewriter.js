@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 		// wait for a while and call this function again for next character
 		setTimeout(function() {
 			typeWriter((i + 1)%3)
-		}, 6000);
+		}, 4000);
 	}
   
 	// start the text animation
