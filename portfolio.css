@@ -2,6 +2,8 @@
 	display: inline-block;
 	width: 100%;
 	margin: 0 0 1em 0;
+	border: white 2px solid;
+    padding: 20px;
 }
 
 .masonry-brick img {
