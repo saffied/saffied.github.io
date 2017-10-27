@@ -35,6 +35,8 @@
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
+		position: absolute;
+		top: 68px;	
 	}
 	#left h4 {
 		margin: 5em;
@@ -53,6 +55,8 @@
 
 #left h4 {
 	line-height: 150%;
+	background-color: rgba(255, 255, 255, .7);
+    padding:30px;
 }
 
 #right {
