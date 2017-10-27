@@ -49,9 +49,9 @@
 
 @media screen and (min-width: 701px) {
 	.container {
-		-webkit-columns: 20em 3;
-		-moz-columns: 20em 3;
-		columns: 20em 3;
+		-webkit-columns: 20em 2;
+		-moz-columns: 20em 2;
+		columns: 20em 2;
 	}
 }
 
